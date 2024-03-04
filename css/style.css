@@ -1,0 +1,109 @@
+#container{
+    border: 2px solid rgb(233, 7, 7);
+    width: 1107px;;
+    height: 540px;
+    margin: auto;
+    /* background-color: blueviolet; */
+    background-image: url(https://www.shutterstock.com/image-vector/line-racing-track-start-finish-260nw-1715941159.jpg);
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#red{
+    width: 150px;
+    height: 100px;
+    /* background-color: red; */
+    margin-top: 80px;
+}
+#blue{
+    width: 150px;
+    height: 100px;
+    /* background-color: blue; */
+    margin-top: 184px
+}
+
+.end-game-container{
+    width: 550px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 205px;
+    right: 440px;
+    margin: auto;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    /* background-color: #31effde6; */
+
+}
+
+/* index */
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    align-items: center;
+    background-color: black;
+    
+} 
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.938);
+    margin: auto;
+    border-radius: 80px;
+    padding: 20px;
+}
+.instruc{
+    font-size: 22px;
+    color: #7ff608;
+    
+}
+ul li{
+    color: white;
+    font-size: 20px;
+}
+.titulo{
+    text-align: center;
+}
+h1{
+
+    /* font-family:'Monoton', cursive;   */
+    font-family: "Faster One";
+    font-size: 60px;
+    font-weight: 100;
+     /* color: orangered; */
+
+   /* Fondo gardiente con webkit */
+    background: -webkit-linear-gradient(#ff0707, #ff0707, rgb(217 181 4 / 93%),#07fffa,#460aff,#ff04f7,#05ff21);
+    color: transparent;  
+    -webkit-background-clip: text ;
+    background-clip: text ; 
+    /* -webkit-text-fill-color: transparent; */ 
+    
+}
+.btn-back{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#btnInicio{
+    color: #05ff21;
+    width: 100px;
+    height: 40px;
+}
+
+/*  */
+#manchaBlanca{
+    width: 550px;
+    height: 18px;
+    position: absolute;
+    top: 271px;
+    left: 250px;
+    background-color: white;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Audiowide&family=BhuTuka+Expanded+One&family=Bungee&family=Bungee+Inline&family=Comforter&family=Faster+One&family=Fredericka+the+Great&family=Libre+Barcode+128+Text&family=Meddon&family=Monoton&family=Orbitron:wght@400;900&family=Road+Rage&family=Rock+3D&family=Rock+Salt&family=RocknRoll+One&family=Russo+One&family=Sassy+Frass&family=Special+Elite&family=Syncopate:wght@400;700&family=Tourney:wght@500;800&family=Vast+Shadow&display=swap" rel="stylesheet">
+  
+    <!-- sweetalert css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/sweetalert2.min.css">
+
+    <title> The Fastes Racer</title>
+</head>
+<body style="background-color: black;">
+
+    <div id="container" >
+        <img id="red" src="./img/2.png" alt="">
+        <img id="blue" src="./img/1.png" alt="">
+        <div id="manchaBlanca"></div>
+        <div id="endGame" class="end-game-container"></div>
+    </div>
+    <div class="btn-back">
+
+        <a href="index.html"> <button id="btnInicio"  > <b>Inicio</b> </button></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./index.js"></script>
+    
+
+    <!-- <script>
+        function showAlert() {
+
+            let timerInterval;
+
+            Swal.fire({
+                title: '¡Corredores Preparados, Listos en <b></b>! ',
+                icon: 'success',
+                showConfirmButton: false,
+                timer: 10000,
+               
+                width:600,
+
+                didOpen: () => {
+                Swal.showLoading();
+
+                const timer = Swal.getPopup().querySelector("b");
+                timerInterval = setInterval(() => {
+                    const tiempoRestanteEnMilisegundos = Swal.getTimerLeft(); // Obtener tiempo restante en milisegundos
+                    const tiempoRestanteEnSegundos = Math.ceil(tiempoRestanteEnMilisegundos / 1000); // Convertir a segundos y redondear hacia arriba
+                    timer.textContent = `${tiempoRestanteEnSegundos} s`;
+                }, 100); 
+               },
+               willClose: () => {
+                 clearInterval(timerInterval);
+               }
+            }).then((result) => {
+              /* Read more about handling dismissals below */
+              if (result.dismiss === Swal.DismissReason.timer) {
+                Swal.fire({
+                    title: 'A Correr!!! ',
+                    showConfirmButton: false,
+                    timer:1500,
+                    width:250
+                });
+                console.log("I was closed by the timer");
+              }
+              });
+        };
+
+        showAlert()
+    </script> -->
+
+</body>
+</html>
